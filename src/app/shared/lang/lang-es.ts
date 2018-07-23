@@ -11,7 +11,7 @@ export const LANG_ES_TRANS = {
     'Name':'Nombre',
     'I agree to all ':'Estoy de acuerdo con todos los ',
     'Terms':'Terminos',
-    'Sign Up':'Registrarme',
+    'Sign Up':'Registrate',
     'Already have an account?':'Ya tienes una cuenta?',
     'Sign In':'Ingresa',
     'Username':'Nombre de usuario',
