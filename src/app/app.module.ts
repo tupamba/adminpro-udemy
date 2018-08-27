@@ -13,6 +13,7 @@ import { TranslateService } from './services/lang/translate.service';
 
 //Modules
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [TranslateService],
   bootstrap: [AppComponent]
