@@ -7,6 +7,9 @@ import { SharedModule } from '../shared/shared.module';
 import { PAGE_ROUTES } from './pages.routes';
 import {FormsModule } from "@angular/forms";
 import { ComponentModule } from '../components/components.module';
+import { BrowserModule } from '@angular/platform-browser';
+
+
 @NgModule({
     declarations:[
         PagesComponent,
@@ -23,7 +26,8 @@ import { ComponentModule } from '../components/components.module';
         SharedModule,
         PAGE_ROUTES,
         FormsModule,
-        ComponentModule
+        ComponentModule,
+        BrowserModule
     ]
 
 })

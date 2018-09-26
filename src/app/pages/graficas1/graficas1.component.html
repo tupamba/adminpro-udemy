@@ -1,3 +1,9 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+    <div *ngFor="let item of graficos" class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-chart-view [pieChartLabels]='item.labels' [pieChartData]='item.data' [pieChartType]='item.type' [title]='item.leyenda'></app-chart-view>
+            </div>
+        </div>
+    </div>
+</div>
