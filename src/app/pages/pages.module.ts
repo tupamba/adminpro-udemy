@@ -8,6 +8,7 @@ import { PAGE_ROUTES } from './pages.routes';
 import {FormsModule } from "@angular/forms";
 import { ComponentModule } from '../components/components.module';
 import { BrowserModule } from '@angular/platform-browser';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { BrowserModule } from '@angular/platform-browser';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
+        AccountSettingComponent,
     ],
     exports:[
         DashboardComponent,
